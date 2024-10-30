@@ -1,2 +1,4 @@
 # E-commerce_Website_Development_Project
-In this project, I developed an e-commerce website prototype featuring a clean and simple user interface, designed for easy integration with additional functionalities.
+In this project, I developed an e-commerce website prototype featuring a clean and simple user interface, designed for easy integration with additional functionalities. The core structure of the website was built using HTML, providing a strong and flexible framework that allows for efficient future development. Every element of the site was carefully arranged to ensure a smooth and intuitive user experience.
+
+In addition, I used CSS to create a visually appealing design, ensuring a consistent and aesthetic layout. With this combination of technologies, the e-commerce prototype is not only visually engaging but also easily integrable with other systems or additional features. This project showcases my ability to merge aesthetic design with efficient functionality in web development.
