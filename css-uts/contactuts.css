@@ -1,0 +1,316 @@
+* {padding: 0; margin: 0; font-family: "Inter", sans-serif;}
+
+.container {width: auto; margin: auto; height: auto;}
+
+/* Header */
+header {
+	width: 1000px;
+	height: 70px;
+	margin: auto;
+	background: white;
+}
+
+ /* Kiri Menu "SuperB" (Logo)*/
+header .kirimenu a {
+	float: left;
+	margin: 15px 200px 15px 0;
+}
+
+/* Tengah Menu "Home dan lain - lain" */
+header nav {
+	float: left;
+	z-index: 1;
+	margin: auto;
+	position: sticky;
+	padding: 3px 0 2.5px 223px;
+	width: 434px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+header nav ul li {
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+
+}
+nav ul li ul {
+	display: none;
+	position: absolute;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul li ul li {
+	float: none;
+	position: relative;
+	right: 73%;
+	padding: 15px 100px 15px 10px;
+	background: #FCFCFC;
+	font-size: 12px;
+}
+nav ul li ul .top {
+	margin-top: 20px;
+}
+/*Kanan Menu "Keranjang (icon bag)*/
+header .kananmenu {
+	float: left;
+	margin-top: 5px;
+	position: relative;
+}
+header .kananmenu a {
+	padding: 10px 10px;
+	z-index: 1;
+	position: absolute;
+}
+header .kananmenu .bag {
+	top: 6px;
+	right: 10px;
+}
+header .kananmenu .angka {
+	position: relative;
+	background: black;
+	padding: 3px 5.5px;
+	border-radius: 100%;
+	color: white;
+	font-size: 8px;
+	font-weight: bold;
+	margin-left: 32px;
+	top: 3px;
+	right: 1px;
+}
+
+.container2 {
+	width: auto;
+	margin: auto;
+	height: auto;
+	background: #F4F6F3;
+}
+/*Bagian Account*/
+article {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background: #F4F6F3;
+	overflow: hidden;
+}
+article .bagianaccount {
+	background: #FFFFFF;
+	width: 950px;
+	height: 500px;
+	padding: 25px;
+	margin-top: 40px;
+	margin-bottom: 45px;
+}
+
+
+.container3 {
+	width: auto;
+	margin: auto;
+	height: auto;
+	background: #000000;
+}
+/*Footer1*/
+footer {
+	width: 1000px;
+	margin: auto;
+	padding-top: 60px;
+	background: black;
+	overflow: hidden;
+
+}
+/*Footer1 (Kiri)*/
+footer .foot1 .foot1kiri {
+	color: white;
+	float: left;
+	width: 320px;	
+	height: 300px;
+	padding-right: 20px;
+}
+footer .foot1 .foot1kiri h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+footer .foot1 .foot1kiri p {
+	font-size: 12px;
+	line-height: 17px;
+}
+footer .foot1 .foot1kiri .facebook {
+	text-decoration: none;
+	margin-right: 7.5px;
+	float: left;
+}
+footer .foot1 .foot1kiri .facebook img:hover {
+	width: 34px;
+	height: 34px;
+}
+footer .foot1 .foot1kiri .instagram {
+	text-decoration: none;
+	margin-right: 5px;
+	padding-top: 1px;
+	float: left;
+}
+footer .foot1 .foot1kiri .instagram img:hover {
+	width: 34px;
+	height: 34px;
+}
+footer .foot1 .foot1kiri .twitter {
+	text-decoration: none;
+	float: left;
+	
+}
+footer .foot1 .foot1kiri .twitter img {
+	margin-top: -3.5px;
+	float: left;
+}
+footer .foot1 .foot1kiri .twitter img:hover {
+	width: 42px;
+	height: 43px;
+}
+footer .foot1 .foot1kiri .youtube {
+	text-decoration: none;
+	margin-left: -1px;
+	margin-top: 2px;
+}
+footer .foot1 .foot1kiri .youtube img:hover {
+	width: 49px;
+	height: 37px;
+}
+footer .foot1 .foot1kiri .satu {
+	margin-bottom: 10px;
+}
+footer .foot1 .foot1kiri .dua {
+	margin-bottom: 25px;
+}
+/*Footer1 (Tengah)*/
+footer .foot1 .foot1tengah {
+	color: white;
+	float: left;	
+	width: 310px;
+	height: 300px;
+	padding-right: 18px;
+}
+footer .foot1 .foot1tengah h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+/*Footer1 (Tengah Atas)*/
+footer .foot1 .foot1tengah .atas img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .atas h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .atas p {
+	float: left;
+	padding: 0 180px 30px 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Tengah Tengah)*/
+footer .foot1 .foot1tengah .tengah img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .tengah h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .tengah p {
+	float: left;
+	padding: 0 180px 30px 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Tengah Bawah)*/
+footer .foot1 .foot1tengah .bawah img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .bawah h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .bawah p {
+	float: left;
+	padding: 0 180px 0 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Kanan)*/
+footer .foot1 .foot1kanan {
+	color: white;
+	float: left;	
+	height: 300px;
+	width: 310px;
+}
+footer .foot1 .foot1kanan h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+footer .foot1 .foot1kanan p {
+	margin-top: 25px;
+	font-size: 12px;
+	width: 300px;
+	line-height: 17px;
+}
+.tool {
+	position: relative;
+	margin-top: 23px;
+}
+.tool .tips {
+	display: inline;
+}
+input[type=isi] {
+	width: 185px;
+	height: 36px;
+	padding-left: 13px;
+	border-radius: 4px;
+}
+input[type=submit] {
+	width: 100px;
+	height: 40px;
+	border-radius: 5.5px;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+input[type=submit]:hover, button[type=button]:hover {
+	background-color: lightgrey;
+}
+/*Footer1 Garis*/
+footer .garis {
+	border-top: 2px solid #404040;
+	width: 37px;
+	margin: 7px 0;
+}
+
+/*Footer2 */
+footer .foot2 {
+	float: left;
+	color: lightgrey;
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 0;
+	width: 978px;
+	border-top: 2px solid #2D2D2D;
+}

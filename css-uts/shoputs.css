@@ -1,0 +1,892 @@
+* {padding: 0; margin: 0; font-family: "Inter", sans-serif;}
+
+.container {width: auto; margin: auto; height: auto;}
+
+/* Header */
+header {
+	width: 1000px;
+	height: 70px;
+	margin: auto;
+	background: white;
+}
+
+ /* Kiri Menu "SuperB" (Logo)*/
+header .kirimenu a {
+	float: left;
+	margin: 15px 200px 15px 0;
+}
+
+/* Tengah Menu "Home dan lain - lain" */
+header nav {
+	float: left;
+	z-index: 1;
+	margin: auto;
+	position: sticky;
+	padding: 3px 0 2.5px 223px;
+	width: 434px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+header nav ul li {
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+
+}
+nav ul li ul {
+	display: none;
+	position: absolute;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul li ul li {
+	float: none;
+	position: relative;
+	right: 73%;
+	padding: 15px 100px 15px 10px;
+	background: #FCFCFC;
+	font-size: 12px;
+}
+nav ul li ul .top {
+	margin-top: 20px;
+}
+/*Kanan Menu "Keranjang (icon bag)*/
+header .kananmenu {
+	float: left;
+	margin-top: 5px;
+	position: relative;
+}
+header .kananmenu a {
+	padding: 10px 10px;
+	z-index: 1;
+	position: absolute;
+}
+header .kananmenu .bag {
+	top: 6px;
+	right: 10px;
+}
+header .kananmenu .angka {
+	position: relative;
+	background: black;
+	padding: 3px 5.5px;
+	border-radius: 100%;
+	color: white;
+	font-size: 8px;
+	font-weight: bold;
+	margin-left: 32px;
+	top: 3px;
+	right: 1px;
+}
+
+
+article {
+	margin: auto;
+	width: auto;
+	height: auto;
+	background: #FCFCFC;
+}
+/*Bagian 1*/
+article .bagian1 {
+	width: 1000px;
+	background: #FCFCFC;
+	margin: auto;
+	overflow: hidden;
+}
+/*Bagian 1 (Kiri)*/
+article .bagian1 .bagian1kiri {
+	float: left;
+	width: 660px;
+	margin-top: 35px;
+}
+article .bagian1 .bagian1kiri .bagian1kirisatu a {
+	text-decoration: none;
+	color: #767676;
+	float: left;
+	margin-right: 3px;
+	font-size: 12.5px;
+}
+article .bagian1 .bagian1kiri .bagian1kirisatu p {
+	color: #767676;
+	font-size: 12.5px;
+}
+article .bagian1 .bagian1kiri .bagian1kirisatu h1 {
+	font-size: 29px;
+	margin-top: 22px;
+}
+/*Bagian 1 (Kiri2)*/
+article .bagian1 .bagian1kiri .bagian1kiridua .kiri {
+	font-size: 13px;
+	float: left;
+	margin: 14px 332px 45px 0;
+}
+article .bagian1 .bagian1kiri .bagian1kiridua .kanan select {
+	float: left;
+	margin-top: -2px;
+	width: 180px;
+	font-size: 11px;
+	padding: 9px 17px;
+	border: 0.5px solid black;
+}
+
+/*Bagian1*/
+/*Bagian1 (Kiri3 Atas Kiri)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri {
+	float: left;
+	margin-right: 24.5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri .pkiri p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri .starkiri {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri .hargakiri {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri .tombolkiri {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kiri .tombolkiri a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Atas Tengah)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah {
+	float: left;
+	margin-right: 24.5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah .ptengah p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah .startengah {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah .hargatengah {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah .tomboltengah {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .tengah .tomboltengah a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Atas Kanan)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan {
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan .pkanan p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan .starkanan {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan .hargakanan {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan .tombolkanan {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .atas .kanan .tombolkanan a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Tengah Kiri)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri {
+	float: left;
+	margin-right: 24.5px;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri .pkiri p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri .starkiri {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri .hargakiri {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri .tombolkiri {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kiri .tombolkiri a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Tengah Tengah)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah {
+	float: left;
+	margin-right: 24.5px;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah .ptengah p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah .startengah {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah .hargatengah {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah .tomboltengah {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .tengah .tomboltengah a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Tengah Kanan)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan {
+	float: left;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan .pkanan p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan .starkanan {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan .hargakanan {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan .tombolkanan {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .tengah .kanan .tombolkanan a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Bawah Kiri)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri {
+	float: left;
+	margin-right: 24.5px;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri .pkiri p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri .starkiri {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri .hargakiri {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri .tombolkiri {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kiri .tombolkiri a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Bawah Tengah)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah {
+	float: left;
+	margin-right: 24.5px;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah .ptengah p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah .startengah {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah .hargatengah {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah .tomboltengah {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .tengah .tomboltengah a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Bagian1 (Kiri3 Bawah Kanan)*/
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan {
+	float: left;
+	margin-top: 40px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan .pkanan p {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 16px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan .starkanan {
+	color: #FFC411;
+	font-weight: bold;
+	margin-top: 2px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan .hargakanan {
+	color: grey;
+	font-size: 12px;
+	margin-top: 5px;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan .tombolkanan {
+	background: black;
+	margin-top: 20px;
+	padding: 6px 14px;
+	border-radius: 2px;
+	float: left;
+}
+article .bagian1 .bagian1kiri .bagian1kiritiga .bawah .kanan .tombolkanan a {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+/*Harga Coret*/
+.bagian1 .bagian1kiri .bagian1kiritiga .coret {
+	text-decoration: line-through;
+	color: lightslategrey;
+	font-size: 12px;
+}
+.bagian1 .bagian1kiri .bagian1kiritiga .noncoret {
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+/*Bintang 4*/
+.fill {
+	color: #FFC411; 
+	font-weight: bold;
+	margin-top: 2px;
+}
+.empty {
+	color: lightgrey;
+}
+/*Underline*/
+article .bagian1 .bagian1kiri .bagian1kiritiga a {
+	text-decoration: none;
+}
+
+/*Bagian 1 (Kiri4)*/
+article .bagian1 .bagian1kiri .bagian1kiriempat {
+	float: left;
+	margin: 65px 0 35px 0;
+}
+article .bagian1 .bagian1kiri .bagian1kiriempat .hal1 {
+	background: black;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 8px 8px 12px;
+	font-size: 13px;
+	opacity: 0.8;
+	margin: 0 10px 0 270px;
+}
+article .bagian1 .bagian1kiri .bagian1kiriempat .hal2 {
+	background: white;
+	color: black;
+	border: 1px solid #eee;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 8px 8px 12px;
+	font-size: 13px;
+	margin: 0 10px 0 0;
+}
+article .bagian1 .bagian1kiri .bagian1kiriempat .hal2juga {
+	background: white;
+	color: black;
+	border: 1px solid #eee;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 13px;
+	font-size: 13px;
+	margin: 0 10px 0 0;
+}
+
+/*Bagian1 (Kanan)*/
+article .bagian1kanan {
+	float: left;
+	margin: 35px 0 0 40px;
+	width: 300px;
+	background: white;
+}
+/*Bagian1 (Kanan Satu)*/
+article .bagian1kanan .bagian1kanansatu {
+	margin: 18px 15px;
+	
+}
+article .bagian1kanan .bagian1kanansatu h3 {
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+article .bagian1kanan .bagian1kanansatu .satu img {
+	float: left;
+	margin-top: 10px;
+}
+article .bagian1kanan .bagian1kanansatu .satu p {
+	float: left;
+	color: black;
+	font-size: 13px;
+	margin: 0 0 0 10px;
+	padding: 20px 121px 20px 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+article .bagian1kanan .bagian1kanansatu .dua img {
+	float: left;
+	margin-top: 10px;
+}
+article .bagian1kanan .bagian1kanansatu .dua p {
+	float: left;
+	color: black;
+	font-size: 13px;
+	margin: 0 0 0 10px;
+	padding: 20px 86px 20px 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+article .bagian1kanan .bagian1kanansatu .tiga img {
+	float: left;
+	margin-top: 10px;
+}
+article .bagian1kanan .bagian1kanansatu .tiga p {
+	float: left;
+	color: black;
+	font-size: 13px;
+	margin: 0 0 0 10px;
+	padding: 20px 138px 20px 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+article .bagian1kanan .bagian1kanansatu .empat img {
+	float: left;
+	margin-top: 10px;
+}
+article .bagian1kanan .bagian1kanansatu .empat p {
+	float: left;
+	color: black;
+	font-size: 13px;
+	margin: 0 0 0 10px;
+	padding: 20px 150px 20px 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+/*Bagian1 (Kanan Dua)*/
+article .bagian1kanan .bagian1kanandua {
+	float: left;
+	margin: auto;
+	
+}
+article .bagian1kanan .bagian1kanandua h3 {
+	font-size: 17px;
+	margin: 55px 20px 0 15px;
+}
+input[type=kisi] {
+	float: left;
+	margin: -12px 5px 0 15px;
+	font-size: 12px;
+	width: 220px;
+	height: 26px;
+	padding-left: 5px;
+	border-radius: 4px;
+}
+.searchbar {
+	position: relative;
+	margin-top: 23px;
+}
+article .bagian1kanan .bagian1kanandua img {
+	background: black;
+	float: left;
+	margin-top: -12px;
+	padding: 7.5px 10px;
+	border-radius: 4px;
+}
+/*Bagian1 (Kanan Tiga)*/
+article .bagian1kanan .bagian1kanantiga {
+	float: left;
+	margin: 47px 20px 0 15px;
+}
+article .bagian1kanan .bagian1kanantiga h3 {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+article .bagian1kanan .bagian1kanantiga .slideleft {
+	float: left;
+	background: white;
+}
+article .bagian1kanan .bagian1kanantiga .slideleft:hover {
+	width: 21px;
+	height: 17px;
+	margin-top: -0.5px;
+	background: lightgrey;
+}
+article .bagian1kanan .bagian1kanantiga .bar {
+	float: left;
+	border-top: 2px solid black;
+	width: 228px;
+	border-radius: 5px;
+	margin: 7px -5px 7px -2px;
+}
+article .bagian1kanan .bagian1kanantiga .slideright {
+	float: left;
+	background: white;
+	margin-top: -0.5px;
+}
+article .bagian1kanan .bagian1kanantiga .slideright:hover {
+	width: 21px;
+	height: 17px;
+	margin-top: -1px;
+	background: lightgrey;
+}
+
+/*Bagian1 (Kanan Empat)*/
+article .bagian1kanan .bagian1kananempat .low {
+	float: left;
+	margin: 7px 80px 0 15px;
+}
+input[type=text] {
+	width: 79px;
+	height: 30px;
+	padding-left: 7px;
+	font-size: 12px;
+}
+article .bagian1kanan .bagian1kananempat .high {
+	float: left;
+	margin-top: 7px;
+}
+
+/*Bagian1 (Kanan Lima)*/
+article .bagian1kanan .bagian1kananlima {
+	float: left;
+	margin: 47px 20px 0 15px;
+}
+article .bagian1kanan .bagian1kananlima h3 {
+	font-size: 17px;
+	margin-bottom: 6px;
+}
+article .bagian1kanan .bagian1kananlima a {
+	text-decoration: none;
+}
+article .bagian1kanan .bagian1kananlima .twitter img {
+	border-radius: 4px;
+}
+article .bagian1kanan .bagian1kananlima .twitter img:hover {
+	opacity: 0.8;
+}
+article .bagian1kanan .bagian1kananlima .facebook img {
+	border-radius: 4px;
+}
+article .bagian1kanan .bagian1kananlima .facebook img:hover {
+	opacity: 0.8;;
+}
+article .bagian1kanan .bagian1kananlima .instagram img {
+	border-radius: 4px;
+}
+article .bagian1kanan .bagian1kananlima .instagram img:hover {
+	opacity: 0.8;;
+}
+article .bagian1kanan .bagian1kananlima .youtube img {
+	border-radius: 4px;
+}
+article .bagian1kanan .bagian1kananlima .youtube img:hover {
+	opacity: 0.8;;
+}
+
+
+.container3 {
+	width: auto;
+	margin: auto;
+	height: auto;
+	background: #000000;
+}
+/*Footer1*/
+footer {
+	width: 1000px;
+	margin: auto;
+	padding-top: 60px;
+	background: black;
+	overflow: hidden;
+
+}
+/*Footer1 (Kiri)*/
+footer .foot1 .foot1kiri {
+	color: white;
+	float: left;
+	width: 320px;	
+	height: 300px;
+	padding-right: 20px;
+}
+footer .foot1 .foot1kiri h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+footer .foot1 .foot1kiri p {
+	font-size: 12px;
+	line-height: 17px;
+}
+footer .foot1 .foot1kiri .facebook {
+	text-decoration: none;
+	margin-right: 7.5px;
+	float: left;
+}
+footer .foot1 .foot1kiri .facebook img:hover {
+	width: 34px;
+	height: 34px;
+}
+footer .foot1 .foot1kiri .instagram {
+	text-decoration: none;
+	margin-right: 5px;
+	padding-top: 1px;
+	float: left;
+}
+footer .foot1 .foot1kiri .instagram img:hover {
+	width: 34px;
+	height: 34px;
+}
+footer .foot1 .foot1kiri .twitter {
+	text-decoration: none;
+	float: left;
+	
+}
+footer .foot1 .foot1kiri .twitter img {
+	margin-top: -3.5px;
+	float: left;
+}
+footer .foot1 .foot1kiri .twitter img:hover {
+	width: 42px;
+	height: 43px;
+}
+footer .foot1 .foot1kiri .youtube {
+	text-decoration: none;
+	margin-left: -1px;
+	margin-top: 2px;
+}
+footer .foot1 .foot1kiri .youtube img:hover {
+	width: 49px;
+	height: 37px;
+}
+footer .foot1 .foot1kiri .satu {
+	margin-bottom: 10px;
+}
+footer .foot1 .foot1kiri .dua {
+	margin-bottom: 25px;
+}
+/*Footer1 (Tengah)*/
+footer .foot1 .foot1tengah {
+	color: white;
+	float: left;	
+	width: 310px;
+	height: 300px;
+	padding-right: 18px;
+}
+footer .foot1 .foot1tengah h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+/*Footer1 (Tengah Atas)*/
+footer .foot1 .foot1tengah .atas img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .atas h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .atas p {
+	float: left;
+	padding: 0 180px 30px 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Tengah Tengah)*/
+footer .foot1 .foot1tengah .tengah img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .tengah h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .tengah p {
+	float: left;
+	padding: 0 180px 30px 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Tengah Bawah)*/
+footer .foot1 .foot1tengah .bawah img {
+	float: left;
+	margin-right: 7px;
+}
+footer .foot1 .foot1tengah .bawah h4 {
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 5px;
+}
+footer .foot1 .foot1tengah .bawah p {
+	float: left;
+	padding: 0 180px 0 0;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+}
+/*Footer1 (Kanan)*/
+footer .foot1 .foot1kanan {
+	color: white;
+	float: left;	
+	height: 300px;
+	width: 310px;
+}
+footer .foot1 .foot1kanan h3 {
+	font-size: 18px;
+	margin-top: -5px;
+}
+footer .foot1 .foot1kanan p {
+	margin-top: 25px;
+	font-size: 12px;
+	width: 300px;
+	line-height: 17px;
+}
+.tool {
+	position: relative;
+	margin-top: 23px;
+}
+.tool .tips {
+	display: inline;
+}
+input[type=isi] {
+	width: 185px;
+	height: 36px;
+	padding-left: 13px;
+	border-radius: 4px;
+}
+input[type=submit] {
+	width: 100px;
+	height: 40px;
+	border-radius: 5.5px;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+input[type=submit]:hover, button[type=button]:hover {
+	background-color: lightgrey;
+}
+/*Footer1 Garis*/
+footer .garis {
+	border-top: 2px solid #404040;
+	width: 37px;
+	margin: 7px 0;
+}
+
+/*Footer2 */
+footer .foot2 {
+	float: left;
+	color: lightgrey;
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 0;
+	width: 978px;
+	border-top: 2px solid #2D2D2D;
+}
